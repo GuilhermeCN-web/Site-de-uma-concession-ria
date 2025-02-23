@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loja de Carros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="mb-3 navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://www.bing.com/search?q=bmw&cvid=16b49187ca38403d9f34ca18cecb9840&aqs=edge..69i57j0l8.1168j0j1&pglt=41&FORM=ANNTA1&PC=DCTS"><img src="img/download.jfif" alt="bmw"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="loja.html"><strong><i class="fas fa-cloud" style="font-size: 50px;"></i>Informações</strong></a>
+        <h1>Concessionária<em> BMW</em></h1>
+      </li>
+      <li class="nav-item dropdown">
+       
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="https://www.bing.com/search?q=gandini&cvid=560b3b9ba413474ca03cf69f372f1853&aqs=edge.0.69i59l2j0l6j69i60.2047j0j1&pglt=41&FORM=ANNTA1&PC=DCTS"><i class="fas fa-reply"></i>BMW-Gandini</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+        <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLongoExemplo">
+  Por que parceria com a BMW?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">POR QUÊ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Gandini estava na sala de sua casa assistindo Domingão do Faustão, quando sentiu seu celular vibrar em seu bolso,sinalizando uma nova mensagem.
+        Gandini não fazia idéia de como aquela mensagem poderia mudar sua vida.
+        Fds tô com preguiça de escrever kkk
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">História Bosta<i class=" fas fa-poo"></i></button>
+        <button type="button" class="btn btn-primary">História Top<i class="fas fa-hand-peace"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+  Dê seu feedback<i class="fas fa-hand-holding"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Dê seu feedback<i class="fas fa-hand-holding"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <textarea name="sugestao" rows="5" cols="60" placeholder="Dê seu Feedback"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Enviar<i class="fas fa-handshake"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        <div class="conteiner-fluid">
+        <div class="jumbotron">
+  <h1 class="display-4"><i class="fab fa-angellist"></i>Olá, motorista!</h1>
+  <h4 class="lead"><i class="fas fa-coffee"></i>Está afim de comprar ou alugar carros?</h4>
+  <hr class="my-4">
+  <h5><i class="fas fa-box-open"></i>Para mais informações clique nos botões de como quer prosseguir.</h5>
+  <a class="btn btn-primary btn-lg" href="comprar.html" ><i class="fas fa-shopping-cart"></i>Comprar</a>
+   <a class="btn btn-primary btn-lg" href="alugar.html" ><i class="fas fa-hand-holding-usd "></i>Alugar</a>
+</div>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <strong><i class="fas fa-times"></i>Motocicletas não estão à venda, por enquanto.</strong>
+  <h6><i class="fas fa-bullhorn"></i>Ative as notificações do site para receber qualquer novidade!</h6>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

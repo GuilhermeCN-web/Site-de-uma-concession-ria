@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>comprar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="alert alert-primary" role="alert">
+            <h1><i class="fas fa-thumbs-up"></i>Escolha o carro que deseja comprar.</h1>
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            <i class="fas fa-thumbs-up"></i>Clique na imagem para iniciar processo de compra!
+          </div>
+        <h2><i class="fas fa-car"></i>BMW B7</h2>
+        <a href="efetuar compra.html"><img src="compra/b7.jpg" alt="bmw b7" height="250" width="375"></a>
+        <br>
+        <h3><i class="fas fa-money-bill"></i>R$ 739.971,68</h3>
+        <h2><i class="fas fa-car"></i>BMW M2</h2>
+        <a href="efetuar compra.html"><img src="compra/m2.jpg" alt="bmw m2" height="250" width="375"></a>
+        <br>
+        <h3><i class="fas fa-money-bill"></i>R$ 450.000,00</h3>
+        <h2><i class="fas fa-car"></i>BMW X1</h2>
+        <a href="efetuar compra.html"><img src="compra/x1.jpg" alt="bmw x1" height="250" width="375"></a>
+        <br>
+        <h3><i class="fas fa-money-bill"></i>R$ 296.950,00</h3>
+        <h2><i class="fas fa-car"></i>BMW Z4</h2>
+        <a href="efetuar compra.html"><img src="compra/z4.jpg" alt="bmw z4" height="250" width="375" ></a>
+        <h3><i class="fas fa-money-bill"></i>R$ 522.600,00</h3>
+        <div class="alert alert-warning" role="alert">
+            <strong><i class="fas fa-times"></i>Motocicletas não estão à venda, por enquanto.</strong>
+            <h6><i class="fas fa-bullhorn"></i>Ative as notificações do site para receber qualquer novidade!</h6>
+          </div>
+          <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+  Compre com 100% de desconto<i class="fas fa-surprise"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">100%</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i class="fas fa-laugh-squint"></i>Trolei kkkkk<i class="fas fa-laugh-squint"></i>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fui trolado<i class="fas fa-tired"></i></button>
+        <button type="button" class="btn btn-primary"><i class="fas fa-laugh-squint"></i>kkkkk<i class="fas fa-laugh-squint"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+         </body>
+     </html>
